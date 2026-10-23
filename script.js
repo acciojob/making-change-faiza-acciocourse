@@ -5,7 +5,7 @@ const makeChange = (c) => {
     n:0,
     p:0
   };
-  let num = c;
+  let num = Number(c);
   let quater = 25, dime = 10, nickel = 5, penny = 1;
   while(num>0) {
     if(num>=quater) {
